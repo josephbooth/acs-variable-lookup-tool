@@ -1,1 +1,51 @@
-add html here
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Header Metadata Fetcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>API Header Metadata Fetcher</h2>
+    
+    <label for="endpoint">API Endpoint:</label><br>
+    <input type="text" id="endpoint" placeholder="Enter API Endpoint"><br><br>
+
+    <label for="searchValue">Search Value:</label><br>
+    <input type="text" id="searchValue" placeholder="Enter Search Value"><br><br>
+
+    <button id="fetchButton">Get Variable Name</button>
+    
+    <div id="output">
+        <h2 id="geography-name"></h2>
+        Results for variable search...
+    </div>
+
+    <div id="prototype-idea">
+        <h2>Prototype Idea</h2>
+        <p>This software provides a user-friendly interface to interact with the U.S. Census API. It allows users to:</p>
+
+        <h3>Features</h3>
+        <ul>
+            <li><strong>Search for Specific Variables:</strong> Users can input an API endpoint and a search value to locate specific variables within Census data. The software matches the search value against data rows and displays the corresponding header values (variables).</li>
+            <li><strong>View Metadata:</strong> For each matching variable, the software retrieves detailed metadata, including the variable's label and concept, from the Census API. This information helps users understand the meaning and purpose of the variable.</li>
+            <li><strong>Click to Explore Data:</strong> Variables are displayed as clickable hyperlinks. When clicked, they open a new tab showing the associated raw JSON data from the Census API, providing further context or allowing detailed analysis.</li>
+            <li><strong>Display Geography Name:</strong> The software also retrieves and displays the name of the geographic area associated with the API query, providing clear context for the data being explored.</li>
+        </ul>
+
+        <h3>Key Features</h3>
+        <ul>
+            <li>Easy-to-use interface with input fields for API endpoint and search value.</li>
+            <li>Dynamic fetching and display of variable metadata.</li>
+            <li>Hyperlinked variables for quick access to raw JSON data.</li>
+            <li>Geography name display for added clarity.</li>
+            <li>Error handling and feedback for invalid inputs or failed API requests.</li>
+        </ul>
+
+        <p>This tool is designed to streamline interactions with the Census API, making it easier for users to discover, explore, and analyze Census data with minimal effort.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
