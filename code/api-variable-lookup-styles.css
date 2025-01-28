@@ -1,1 +1,28 @@
-add CSS here
+body {
+    padding: 4%;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    padding: 6px;
+}
+
+#output, .header-box {
+    border: 1px solid #ddd;
+    border-radius: 22px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#prototype-idea {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30%;
+    margin-bottom: 25%;
+    border: 1px solid rgb(223, 222, 223);
+    border-radius: 22px;
+    padding: 3%;
+}
