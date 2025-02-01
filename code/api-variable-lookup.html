@@ -7,15 +7,23 @@
     <link rel="stylesheet" href="api-variable-lookup-styles.css">
 </head>
 <body>
-    <h2>API Header Metadata Fetcher</h2>
-    
-    <label for="endpoint">API Endpoint:</label><br>
-    <input type="text" id="endpoint" placeholder="Enter API Endpoint"><br><br>
-
-    <label for="searchValue">Search Value:</label><br>
-    <input type="text" id="searchValue" placeholder="Enter Search Value"><br><br>
-
-    <button id="fetchButton">Get Variable Name</button>
+    <h2>Variable Lookup for ACS Data on data.census.gov</h2>
+    <div class="form-container">
+        <div>
+            <label for="endpoint">API Endpoint:</label>
+            <textarea id="endpoint" placeholder="Enter API Endpoint"></textarea>
+        </div>
+        
+        <div>
+            <label for="searchValue">Search Value:</label>
+            <input type="text" id="searchValue" placeholder="Enter Search Value">
+        
+        
+            <div class="button-container">
+                <button id="fetchButton">Get Variable Name</button>
+            </div>
+        </div>
+    </div>
     
     <div id="output">
         <h2 id="geography-name"></h2>
