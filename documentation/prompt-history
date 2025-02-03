@@ -1,0 +1,71 @@
+# ChatGPT Prompt History
+
+1. **Act as an expert in `.json` responses from API endpoint calls.**  
+   Look at the snippet of the `.json` response below and tell me what the different parts of the response are called.  
+
+2. **If I wanted to tell a front-end web developer to parse a `.json` response using JavaScript for a value in the data row and the corresponding header—how would I word that?**  
+
+3. **In the `dataRow` in the example we're using here—is that a number or a string?**  
+
+4. **Act as a Front-End Web Developer that specializes in HTML, CSS, JavaScript, and making API calls to `api.census.gov` to retrieve data.**  
+   I want to create an HTML page that allows me to input an API endpoint and a string into two separate text input fields.  
+
+5. **When the endpoint returns the `.json` formatted response, I want to parse the response to find the corresponding header value based on the value entered as the string.**  
+
+6. **So the API endpoint will provide the header and data rows, and the second input will be used as the value to search the `.json` response for the header row value.**  
+
+7. **When the header row is found, I want to write to the HTML page the value of the found header row.**  
+
+8. **Before writing any code—can you write a short narrative of how you interpret what I am asking for?**  
+
+9. **It appears that you understood what I am trying to accomplish. Can you write the HTML and JavaScript code I need to make a prototype to see if this works? Or do you need some additional information before writing code?**  
+
+10. **It looks like you wrote the code so that the new feature shows up inside of the `id="output"` div. I want all of the header row "label" and "concept" data to be in their own `<div>` that appears outside of the `"output"` div.**  
+
+11. **Do you understand what I'm asking? Don't write any code until I'm sure that you understand this change.**  
+
+12. **I think you have it... let's try a prototype.**  
+
+13. **Can you give me a snippet for the `<button>` so that when I press the Enter key, it starts the search?**  
+
+14. **Do you remember the third prototype you wrote for me?**  
+
+15. **I would like to use that prototype as the base for my next change.**  
+    When you write this prototype, let's start to number them in the comments at the very bottom of the code. That way, I have a way of knowing which version I'm using, and I can easily tell you which one I am looking at.  
+
+16. **I want to display the available geography levels based on the `ucgid` used in the API Endpoint immediately following the `<h2 id="geography-name"></h2>` in the HTML file.**  
+
+17. **To look at a different example: Using `Census Tract 206, DeKalb County, Georgia`, the geography codes would be like:**  
+    ```html
+    <p id="geography-codes">tract:020600 county:089 state:13</p>
+    ```  
+
+18. **Do not write any code yet. Have I provided enough information to understand the update I'm asking for? Let's call this update `"add geography-codes to HTML"`.**  
+
+19. **When you write code for the `.js` file, I would like comments above each functional area that explain:**  
+    - One sentence about what the block of code is intended to do.  
+    - One sentence about the inputs and outputs.  
+    - One sentence about why the JavaScript methods were used in that block.  
+
+20. **So, I am expecting to see three sentences as comments prior to blocks of functionality. Does this make sense? Do not write code yet.**  
+
+21. **I have named the project files:**  
+    - **HTML:** `api-variable-lookup.html`  
+    - **CSS:** `api-variable-lookup-styles.css`  
+    - **JavaScript:** `api-variable-lookup-functionality.js`  
+
+22. **Update any code that references the `.css` or `.js` files so that these names are used in place.**  
+
+23. **Do not write code yet.**  
+
+24. **I noticed that the HTML, CSS, and JS files you provided for Prototype 8 did not have all of the elements of the Prototype 5 changes I had made and uploaded to you as an attachment.**  
+
+25. **Is this a common problem with ChatGPT that I need to keep an eye on?**  
+
+26. **How do I run my code directly from the GitHub repo?**  
+
+27. **I'd like you to write the prompts I have used in this conversation in `.md` format. Avoid using the markup that breaks the display within the browser here in ChatGPT.**  
+
+28. **I do not want timestamps. Each prompt can be numbered. A short title is good.**  
+
+29. **Looks good. Go ahead and write it.**  
