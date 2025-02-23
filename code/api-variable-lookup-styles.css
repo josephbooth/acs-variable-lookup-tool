@@ -17,6 +17,10 @@ input {
     margin: 10px 0;
 }
 
+#output-message {
+    display: none;
+}
+
 #prototype-idea {
     width: 75%;
     margin: 0 auto;
