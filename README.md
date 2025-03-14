@@ -1,5 +1,8 @@
 # American Community Survey (ACS) API Variable Lookup  
 
+## View the working prototype
+[Landing page](https://josephbooth.github.io/acs-variable-lookup-tool/)
+
 ## Overview  
 **ACS API Variable Lookup** is a tool designed to help users efficiently search for and understand variable names used in the **American Community Survey (ACS)** dataset, which powers [data.census.gov](https://data.census.gov).  
 
