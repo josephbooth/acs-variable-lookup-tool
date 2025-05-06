@@ -83,7 +83,7 @@ document.getElementById('fetchButton').addEventListener('click', async () => {
                 if (!metadataResponse.ok) throw new Error("Metadata fetch failed.");
 
                 const metadata = await metadataResponse.json();
-                const variableUrl = `${endpoint.split('?')[0]}?get=GEO_ID,NAME,${header}&ucgid=${encodeURIComponent(new URL(endpoint).searchParams.get('ucgid'))}`;
+                const variableUrl = `${endpoint.split('?')[0]}?get=NAME,${header}&ucgid=${encodeURIComponent(new URL(endpoint).searchParams.get('ucgid'))}`;
                 headerBox.innerHTML = `
                     <strong>Variable:</strong> <a href="${variableUrl}" target="_blank">${header}</a><br>
                     <strong>Label:</strong> ${metadata.label}<br>
