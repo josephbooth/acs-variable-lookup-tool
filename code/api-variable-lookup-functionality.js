@@ -74,7 +74,6 @@ document.getElementById('fetchButton').addEventListener('click', async () => {
             const headerBox = document.createElement('div');
             headerBox.className = "header-box";
             headerBox.innerHTML = `<strong>Header:</strong> ${header}<br>Loading metadata...`;
-            outputDiv.style.display = "block";
             outputDiv.appendChild(headerBox);
 
             // Fetch metadata for the header
