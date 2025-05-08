@@ -16,6 +16,7 @@ document.getElementById('fetchButton').addEventListener('click', async () => {
     const endpoint = document.getElementById('endpoint').value;
     const searchValue = document.getElementById('searchValue').value;
     const outputDiv = document.getElementById('output');
+    outputDiv.style.display = "block";
     const geographyNameElement = document.getElementById('geography-name');
     geographyNameElement.textContent = "Geography Name: Not yet fetched"; // Reset geography name
     const resultContent = document.querySelectorAll('#output > div.header-box');
