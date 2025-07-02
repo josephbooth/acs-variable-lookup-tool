@@ -17,6 +17,11 @@ This project provides a **simple, no-install, web-based** solution that runs in 
 
 ---
 
+## Known Issues
+ - Multiple Geographies are not supported at this time
+
+---
+
 ## **Why This Tool Exists**  
 Finding the right **variable names** in Census API responses is **not straightforward** when working with **data.census.gov**.  
 
