@@ -1,7 +1,14 @@
 # American Community Survey (ACS) API Variable Lookup  
 
 ## View the working prototype
-[Lookup an ACS Variable](https://josephbooth.github.io/acs-variable-lookup-tool/code/api-variable-lookup.html)
+[Lookup an ACS Variable](https://josephbooth.github.io/acs-variable-lookup-tool/code/api-variable-lookup.html) <- now requires your API key to work.
+
+## Service Change to Census API - Key Now Required
+Recently the U.S. Census Bureau updated it's API policy to include the mandatory use of an API key for all data calls. The prototype hosted here on GitHub no longer functions because I am not adding my key to this public repo. You'll need to fork the project for yourself and add your key to get this to work.
+
+In the future, I will go through the code in this project and add a placeholder for a users key. But as of now - that work is not started.
+
+If you need a U.S. Census Bureau API key: [Request a U.S. Census Data API Key](https://api.census.gov/data/key_signup.html)
 
 ## Overview  
 **ACS API Variable Lookup** is a tool designed to help users efficiently search for and understand variable names used in the **American Community Survey (ACS)** dataset, which powers [data.census.gov](https://data.census.gov).  
